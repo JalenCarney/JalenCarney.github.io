@@ -1,5 +1,5 @@
 ---
-title: "Title of Post"
+title: "First"
 excerpt: "Short summary of  post"
 date: 
 layout: single
