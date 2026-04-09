@@ -1,5 +1,5 @@
 ---
-title: "Title of Project"
+title: "First"
 excerpt: "Short summary of project"
 
 header:
