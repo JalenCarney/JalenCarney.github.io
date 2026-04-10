@@ -7,12 +7,8 @@ structured combat scenarios. It is designed to showcase core strategy mechanics,
 gameplay, and complete gameplay loops from start to finish."
 
 header:
-<<<<<<< HEAD
   overlay_image:
 
-=======
-  overlay_image: 
->>>>>>> parent of 90b6e2a (Update portfolio-temp.md)
   teaser: 
   overlay_filter: 0.5
 
