@@ -5,7 +5,7 @@ excerpt: "SimplyCom is a turn-based strategy game where the player takes command
 header:
   overlay_image: "/assets/images/test.png"
   overlay_color: "#003595"
-  teaser: ""
+  teaser: "/assets/images/test.png"
   overlay_filter: 0.5
 
 project_brief: "Project downloadable from Ithch.io https://jc1014.itch.io"
