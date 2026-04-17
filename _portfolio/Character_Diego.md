@@ -13,8 +13,8 @@ project_tools: "Blender"
 project_date: "2026"
 
 diego_render_gallery:
-  - url: /assets/images/Diego/Diego_Action.jpg
-    image_path: /assets/images/Diego/Diego_Action.jpg
+  - url: /assets/images/Diego/Diego_Rendered.png
+    image_path: /assets/images/Diego/Diego_Rendered.png
     alt: "Diego final render"
 
   - url: /assets/images/Diego/Diego_UnRendered.jpg
