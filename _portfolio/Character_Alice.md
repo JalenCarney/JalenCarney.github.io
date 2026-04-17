@@ -66,6 +66,9 @@ Alice is a stylized 3D character created in Blender with a focus on capturing a 
 
 {% include gallery id="alice_render_gallery" %}
 
+## Iterative Development
+{% include gallery id="alice_iteration_gallery" %}
+
 ## Animation
 
 {% include gallery id="alice_animation_gallery" %}
