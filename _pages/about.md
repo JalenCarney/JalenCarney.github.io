@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Jalen Carney"
+title: "Jalen Carney(Zenith)"
 permalink: /about/
 author_profile: true
 ---
