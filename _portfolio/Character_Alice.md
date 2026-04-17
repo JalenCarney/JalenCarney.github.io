@@ -15,11 +15,11 @@ project_date: "2026"
 alice_render_gallery:
   - url: /assets/images/Alice/Alice_Rendered.jpg
     image_path: /assets/images/Alice/Alice_Rendered.jpg
-    alt: "Alice render"
+    alt: "Alice Final Render"
 
   - url: /assets/images/Alice/Alice_UnRendered.jpg
     image_path: /assets/images/Alice/Alice_UnRendered.jpg
-    alt: "Alice UnRender"
+    alt: "Alice Viewport Render"
 
   - url: /assets/images/Alice/Alice_Wireframe.jpg
     image_path: /assets/images/Alice/Alice_Wireframe.jpg
