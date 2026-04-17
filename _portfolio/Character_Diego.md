@@ -1,13 +1,13 @@
 ---
 title: "Diego"
-excerpt: "Diego is a Red Mage–inspired anime character specializing in destruction magic."
+excerpt: "Diego is a Red Mage inspired anime character specializing in destruction magic."
 
 header:
   overlay_image: "/assets/images/Diego/Diego_Action.png"
   teaser: "/assets/images/Diego/Diego_Action.png"
   overlay_filter: 0.4
 
-project_brief: "Diego is a Red Mage–inspired anime character specializing in destruction magic."
+project_brief: "Personal 3D character art created in Blender"
 project_role: "3D Artist / Character Designer"
 project_tools: "Blender"
 project_date: "2026"
