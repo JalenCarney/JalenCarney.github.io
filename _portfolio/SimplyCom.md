@@ -3,7 +3,7 @@ title: "SimplyCom"
 excerpt: "SimplyCom is a turn-based strategy game where the player takes command of a squad of super soldiers"
 
 header:
-  overlay_image: "/assets/images/test.png"
+  overlay_image: "/assets/images/SimplyCom.png"
 
   teaser: "/assets/images/test.png"
   overlay_filter: 0.5
