@@ -61,8 +61,6 @@ aisle_iteration_gallery:
 ---
 ## Overview
 Aisle is a stylized 3D character built around a bold personality and rebellious attitude.
-
-🔗 **Full breakdown on ArtStation:**  
 [View on ArtStation](https://www.artstation.com/artwork/YOUR_LINK_HERE)
 
 ## Character Renders
