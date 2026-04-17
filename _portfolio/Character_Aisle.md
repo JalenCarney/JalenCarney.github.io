@@ -1,13 +1,13 @@
 ---
 title: "Aisle"
-excerpt: "Aisle is a bold, rebellious character defined by attitude, energy, and a striking stylized design."
+excerpt: "Aisle is a bold, rebellious character defined by a striking stylized design."
 
 header:
   overlay_image: "/assets/images/Aisle/Aisle_Header.png"
   teaser: "/assets/images/Aisle/Aisle_Header.png"
   overlay_filter: 0.4
 
-project_brief: "Personal 3D character art focused on expressive personality and stylized design"
+project_brief: "Personal 3D character art focused on expressive design"
 project_role: "3D Artist / Character Designer"
 project_tools: "Blender"
 project_date: "2026"
