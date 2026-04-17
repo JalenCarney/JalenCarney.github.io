@@ -33,7 +33,7 @@ plugins:
 # 🎨 Theme Settings
 # -----------------------------------------------------------------------------
 
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "air"
 site_author: "Jalen Carney"
 paginate: 5
 words_per_minute: 200
