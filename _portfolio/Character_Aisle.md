@@ -25,8 +25,8 @@ aisle_render_gallery:
     image_path: /assets/images/Aisle/Aisle_Wireframe.jpg
     alt: "Aisle wireframe"
 
-  - url: /assets/images/Aisle/Aisle_Action.jpg
-    image_path: /assets/images/Aisle/Aisle_Action.jpg
+  - url: /assets/images/Aisle/Aisle_Action.png
+    image_path: /assets/images/Aisle/Aisle_Action.png
     alt: "Aisle action pose"
 
 aisle_animation_gallery:
