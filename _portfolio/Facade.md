@@ -1,10 +1,10 @@
 ---
-title: "SimplyCom"
-excerpt: "SimplyCom is a turn-based strategy game where the player takes command of a squad of super soldiers"
+title: "Facade"
+excerpt: "Facade is a pixel 2D local PVP arena fighting consiting of a variety of different playstyles"
 
 header:
   overlay_image: "/assets/images/test.png"
-  overlay_color: "#003595"
+  overlay_color: "#c20000"
   teaser: "/assets/images/test.png"
   overlay_filter: 0.5
 
@@ -21,4 +21,4 @@ Written deliverables go here
 ---
 
 ### Resources
-- https://jc1014.itch.io/simplycom
+- https://jc1014.itch.io/facade
