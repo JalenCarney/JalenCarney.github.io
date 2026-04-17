@@ -31,5 +31,17 @@ SimplyCom is a turn-based strategy game where players command a squad of super s
 - Synthy Studios -  Synty_Polygon_Prototype_TBSCourse
 ---
 
+## Gallery
+simplycom_gallery:
+  - url: /assets/images/SimplyCom_Game1.png
+    image_path: /assets/images/SimplyCom_Game1.png
+    alt: "Gameplay screenshot 1"
+  - url: /assets/images/SimplyCom_Game2.png
+    image_path: /assets/images/SimplyCom_Game2.png
+    alt: "Gameplay screenshot 2"
+  - url: /assets/images/SimplyCom_Game3.png
+    image_path: /assets/images/SimplyCom_Game3.png
+    alt: "Gameplay screenshot 3"
+
 ### Resources
 - https://jc1014.itch.io/simplycom
