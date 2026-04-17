@@ -12,6 +12,17 @@ project_brief: "Project downloadable from Ithch.io https://jc1014.itch.io"
 project_role: "Developer of project"
 project_tools: "Unity"
 project_date: "2/09/26"
+
+simplycom_gallery:
+  - url: /assets/images/SimplyCom_Game1.png
+    image_path: /assets/images/SimplyCom_Game1.png
+    alt: "Gameplay screenshot 1"
+  - url: /assets/images/SimplyCom_Game2.png
+    image_path: /assets/images/SimplyCom_Game2.png
+    alt: "Gameplay screenshot 2"
+  - url: /assets/images/SimplyCom_Game3.png
+    image_path: /assets/images/SimplyCom_Game3.png
+    alt: "Gameplay screenshot 3"
 ---
 ## Heading 
 SimplyCom is a turn-based strategy game where players command a squad of super soldiers in tactical combat scenarios. The objective is to eliminate enemy forces while managing positioning, abilities, and limited resources.
@@ -32,16 +43,7 @@ SimplyCom is a turn-based strategy game where players command a squad of super s
 ---
 
 ## Gallery
-simplycom_gallery:
-  - url: /assets/images/SimplyCom_Game1.png
-    image_path: /assets/images/SimplyCom_Game1.png
-    alt: "Gameplay screenshot 1"
-  - url: /assets/images/SimplyCom_Game2.png
-    image_path: /assets/images/SimplyCom_Game2.png
-    alt: "Gameplay screenshot 2"
-  - url: /assets/images/SimplyCom_Game3.png
-    image_path: /assets/images/SimplyCom_Game3.png
-    alt: "Gameplay screenshot 3"
+{% include gallery id="simplycom_gallery" %}
 
 ### Resources
 - https://jc1014.itch.io/simplycom
