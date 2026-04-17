@@ -8,7 +8,7 @@ entries_layout: grid
 author_profile: true
 
 header:
-  overlay_image: /assets/images/Portfolio_Banner.jpg
+  overlay_image: /assets/images/Banner.jpg
   overlay_filter: 0.35
   overlay_color: "#000000"
 ---
