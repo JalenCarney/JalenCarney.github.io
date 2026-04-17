@@ -2,10 +2,10 @@
 # ⚙️ Site Settings
 # -----------------------------------------------------------------------------
 
-title: "Homeworld"
+title: "Zen's Hub"
 email: jalencarney@gmail.com
 description: >-
-  "Home of my work!"
+  "The Peak"
 
 # Branding & Social
 twitter_username: 
@@ -40,7 +40,7 @@ words_per_minute: 200
 
 # Masthead (Top Navigation) Settings
 logo: 
-masthead_title: "Zenith"
+masthead_title: "Zen's Hub"
 
 # Defaults for Posts and Pages
 defaults:
@@ -50,7 +50,7 @@ defaults:
     values:
       layout: single
       header:
-        overlay_color: "#003595"
+        overlay_color: "##00ffc3"
         overlay_image:    
       author_profile: true # Author profile (left sidebar) is visible
       toc: true             # Table of Contents (right sidebar) is visible
