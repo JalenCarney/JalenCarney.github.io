@@ -7,7 +7,7 @@ feature_row:
     alt: "Alternative text for image"
     title: "Simpycom"
     excerpt: "summary of project."
-    url: "/portfolio/portfolio-temp/"
+    url: "/portfolio/SimplyCom/"
     btn_label: "View"
     btn_class: "btn--primary"
 ---

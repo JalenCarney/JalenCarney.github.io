@@ -78,7 +78,7 @@ defaults:
     values:
       layout: portfolio-item
       header:
-        overlay_color: "#003595"
+        overlay_color: "#00ffc3"
         overlay_image:
       author_profile: true # Author profile (left sidebar) is visible
       sidebar: 
