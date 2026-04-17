@@ -54,4 +54,29 @@ feature_row:
 Page content
 
 
-{% include feature_row %}
+<div class="project-grid">
+  <a href="/portfolio/SimplyCom/" class="project-card">
+    <img src="/assets/images/SimplyCom.png">
+    <h3>SimplyCom</h3>
+  </a>
+
+  <a href="/portfolio/Facade/" class="project-card">
+    <img src="/assets/images/Facade.png">
+    <h3>Facade</h3>
+  </a>
+
+  <a href="/portfolio/HarvestHorizon/" class="project-card">
+    <img src="/assets/images/HarvestHorizon.png">
+    <h3>Harvest Horizon</h3>
+  </a>
+
+  <a href="/portfolio/Character_Alice/" class="project-card">
+    <img src="/assets/images/Alice/Alice_Header.jpg">
+    <h3>Alice</h3>
+  </a>
+
+  <a href="/portfolio/Character_Aisle/" class="project-card">
+    <img src="/assets/images/Aisle/Aisle_Header.png">
+    <h3>Aisle</h3>
+  </a>
+</div>
