@@ -3,8 +3,8 @@ title: "Diego"
 excerpt: "Diego is a Red Mage–inspired anime character specializing in destruction magic."
 
 header:
-  overlay_image: "/assets/images/Diego/Diego_Rendered.jpg"
-  teaser: "/assets/images/Diego/Diego_Rendered.jpg"
+  overlay_image: "/assets/images/Diego/Diego_Rendered.png"
+  teaser: "/assets/images/Diego/Diego_Rendered.png"
   overlay_filter: 0.4
 
 project_brief: "Diego is a Red Mage–inspired anime character specializing in destruction magic."
