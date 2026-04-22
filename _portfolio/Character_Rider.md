@@ -34,9 +34,13 @@ rider_render_gallery:
     alt: "Other Rider action pose"
 
 rider_animation_gallery:
-  - url: /assets/images/Rider/Rider_Idle.gif
-    image_path: /assets/images/Rider/Rider_Idle.gif
+  - url: /assets/images/Rider/Rider_Animated_Turntable.gif
+    image_path: /assets/images/Rider/Rider_Animated_Turntable.gif
     alt: "Rider idle animation"
+
+  - url: /assets/images/Rider/Rider_Pose_Turntable.gif
+    image_path: /assets/images/Rider/Rider_Pose_Turntable.gif
+    alt: "Rider Pose animation"
 
   - url: /assets/images/Rider/Rider_Turntable.gif
     image_path: /assets/images/Rider/Rider_Turntable.gif
