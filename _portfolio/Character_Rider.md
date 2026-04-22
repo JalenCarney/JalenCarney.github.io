@@ -17,17 +17,21 @@ rider_render_gallery:
     image_path: /assets/images/Rider/Rider_Rendered.png
     alt: "Rider final render"
 
-  - url: /assets/images/Rider/Rider_UnRendered.jpg
-    image_path: /assets/images/Rider/Rider_UnRendered.jpg
+  - url: /assets/images/Rider/Rider_UnRendered.png
+    image_path: /assets/images/Rider/Rider_UnRendered.png
     alt: "Rider viewport render"
 
-  - url: /assets/images/Rider/Rider_Wireframe.jpg
-    image_path: /assets/images/Rider/Rider_Wireframe.jpg
+  - url: /assets/images/Rider/Rider_Wireframe.png
+    image_path: /assets/images/Rider/Rider_Wireframe.png
     alt: "Rider wireframe"
 
-  - url: /assets/images/Rider/Rider_Action.png
-    image_path: /assets/images/Rider/Rider_Action.png
+  - url: /assets/images/Rider/Rider_Action2.png
+    image_path: /assets/images/Rider/Rider_Action2.png
     alt: "Rider action pose"
+
+  - url: /assets/images/Rider/Rider_Action3.png
+    image_path: /assets/images/Rider/Rider_Action3.png
+    alt: "Other Rider action pose"
 
 rider_animation_gallery:
   - url: /assets/images/Rider/Rider_Idle.gif
