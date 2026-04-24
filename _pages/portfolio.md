@@ -6,7 +6,6 @@ permalink: /portfolio/
 collection: portfolio
 entries_layout: grid
 author_profile: true
-
 header:
   overlay_image: /assets/images/UpsacledBanner.webp
   overlay_filter: 0.4
