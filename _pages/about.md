@@ -4,8 +4,8 @@ title: "Jalen Carney(Zenith)"
 permalink: /about/
 author_profile: true
 header:
-  overlay_image: /assets/images/Banner.png
   overlay_filter: 0.5
+  overlay_image: /assets/images/UpsacledBanner.webp
   ---
 
 I am an aspiring game programmer with a strong foundation in Unity development and a 
