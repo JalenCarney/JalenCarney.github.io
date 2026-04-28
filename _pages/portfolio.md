@@ -11,4 +11,4 @@ header:
   overlay_image: /assets/images/UpsacledBanner.webp
 ---
 
-A collection of my work in **game development (Unity)** and **3D character art (Blender)**.
+A collection of my work in **Game Development (Unity)** and **3D Character Art (Blender)**.
