@@ -219,3 +219,28 @@ a {
 a:hover {
   color: var(--primary);
 }
+
+/* =========================================================
+   🧭 FULL WIDTH NAVBAR FIX
+   ========================================================= */
+
+/* Break masthead out of container limits */
+.masthead {
+  width: 100vw;
+  left: 0;
+  right: 0;
+  position: relative;
+}
+
+/* Force inner wrap to also expand */
+.masthead__inner-wrap {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Ensure no page margin interference */
+.page {
+  margin: 0;
+}
