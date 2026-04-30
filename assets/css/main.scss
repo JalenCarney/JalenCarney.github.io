@@ -208,3 +208,32 @@ a:hover {
   max-width: 600px;
   margin: 0 auto;
 }
+
+/* =========================================================
+   🧭 TOP NAV (masthead) THEME FIX
+   ========================================================= */
+
+.masthead {
+  background: rgba(10, 12, 24, 0.85) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Navigation links */
+.greedy-nav a {
+  color: var(--text) !important;
+}
+
+/* Hover state */
+.greedy-nav a:hover {
+  color: var(--primary) !important;
+}
+
+/* Active page highlight */
+.greedy-nav .visible-links a {
+  border-bottom: 2px solid transparent;
+}
+
+.greedy-nav .visible-links a:hover {
+  border-bottom: 2px solid var(--primary);
+}
