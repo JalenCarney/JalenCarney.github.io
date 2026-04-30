@@ -244,3 +244,32 @@ a:hover {
 .page {
   margin: 0;
 }
+
+/* =========================================================
+   🎬 FEATURE ROW FIX (uniform cinematic cards)
+   ========================================================= */
+
+.feature__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* force all images into same ratio */
+.feature__item img {
+  width: 100%;
+  height: 220px;              /* key fix */
+  object-fit: cover;          /* crops instead of stretching */
+  object-position: center;
+  border-radius: 12px;
+}
+
+/* equal card spacing */
+.feature__item--center {
+  text-align: center;
+}
+
+/* makes buttons align consistently */
+.feature__item .btn {
+  margin-top: auto;
+}
