@@ -237,3 +237,11 @@ a:hover {
 .greedy-nav .visible-links a:hover {
   border-bottom: 2px solid var(--primary);
 }
+
+.masthead {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.greedy-nav {
+  padding: 0.5em 1em;
+}
