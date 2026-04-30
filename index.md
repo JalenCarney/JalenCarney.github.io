@@ -53,6 +53,13 @@ feature_row:
     url: "/portfolio/Character_Aisle/"
     btn_label: "View Project"
     btn_class: "btn--primary"
+
+  - image_path: /assets/images/Jin/Jin_Header.png
+    title: "Aisle"
+    excerpt: "A sci-fi samurai character wanting to pursue a new career path."
+    url: "/portfolio/Character_Jin/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
 ---
 
 # Zen's Hub
