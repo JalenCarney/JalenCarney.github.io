@@ -47,7 +47,7 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/Aisle/Aisle_Header.png"
+  - image_path: /assets/images/Aisle/Aisle_Header.png
     title: "Aisle"
     excerpt: "Stylized 3D character design focused on personality expression."
     url: "/portfolio/Character_Aisle/"
