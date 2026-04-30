@@ -4,74 +4,53 @@ permalink: /
 
 header:
   overlay_image: /assets/images/UpsacledBanner.webp
-  overlay_filter: 0.4
+  overlay_filter: 0.55
+
+excerpt: >
+  Game Developer • Systems Designer • Creative Technologist
+
+actions:
+  - label: "View Portfolio"
+    url: /portfolio/
+    class: btn--primary
+
+  - label: "About Me"
+    url: /about/
+    class: btn--inverse
 
 feature_row:
   - image_path: /assets/images/SimplyCom.png
-    alt: "Alternative text for image"
-    title: "Simpycom"
-    excerpt: "SimplyCom is a turn-based strategy game where the player takes command of a squad of super soldiers"
+    title: "SimplyCom"
+    excerpt: "Turn-based tactical squad strategy with high-impact combat systems."
     url: "/portfolio/SimplyCom/"
-    btn_label: "View"
+    btn_label: "View Project"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/Facade.png
-    alt: "Alternative text for image"
     title: "Facade"
-    excerpt: "Facade is a pixel 2D local PVP arena fighting consiting of a variety of different playstyles."
+    excerpt: "Fast-paced pixel PvP fighter built around diverse playstyles."
     url: "/portfolio/Facade/"
-    btn_label: "View"
+    btn_label: "View Project"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/HarvestHorizon.png
-    alt: "Alternative text for image"
     title: "Harvest Horizon"
-    excerpt: "A 2D drilling and crafting game where you restore a broken settlement."
+    excerpt: "Mining and crafting survival loop centered on rebuilding settlements."
     url: "/portfolio/HarvestHorizon/"
-    btn_label: "View"
+    btn_label: "View Project"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/Alice/Alice_Header.jpg
-    alt: "Alternative text for image"
+  - image_path: /assets/images/Alice/Alice_Header.jpg"
     title: "Alice"
-    excerpt: "Alice is the 7th knight of the Grand Order sworn to protect the crown."
+    excerpt: "Knight character concept built for narrative-driven worldbuilding."
     url: "/portfolio/Character_Alice/"
-    btn_label: "View"
+    btn_label: "View Project"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/Aisle/Aisle_Header.png
-    alt: "Alternative text for image"
+  - image_path: /assets/images/Aisle/Aisle_Header.png"
     title: "Aisle"
-    excerpt: "Aisle is a stylized 3D character built around a bold personality."
+    excerpt: "Stylized 3D character design focused on personality expression."
     url: "/portfolio/Character_Aisle/"
-    btn_label: "View"
+    btn_label: "View Project"
     btn_class: "btn--primary"
 ---
-
-
-# Zen's Content
-
-Page content
-
-
-<div class="project-grid">
-  <a href="/portfolio/SimplyCom/" class="project-card">
-    <img src="/assets/images/SimplyCom.png">
-    <h3>SimplyCom</h3>
-  </a>
-
-  <a href="/portfolio/Facade/" class="project-card">
-    <img src="/assets/images/Facade.png">
-    <h3>Facade</h3>
-  </a>
-
-  <a href="/portfolio/Character_Alice/" class="project-card">
-    <img src="/assets/images/Alice/Alice_Header.jpg">
-    <h3>Alice</h3>
-  </a>
-
-  <a href="/portfolio/Character_Aisle/" class="project-card">
-    <img src="/assets/images/Aisle/Aisle_Header.png">
-    <h3>Aisle</h3>
-  </a>
-</div>
