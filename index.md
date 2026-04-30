@@ -1,77 +1,67 @@
 ---
+
 layout: splash
 permalink: /
 
 header:
-  overlay_image: /assets/images/UpsacledBanner.webp
-  overlay_filter: 0.4
+overlay_image: /assets/images/UpsacledBanner.webp
+overlay_filter: 0.5
+caption: "Game Developer • Systems Designer • Creative Technologist"
+
+title: "Zenith"
+excerpt: "Crafting gameplay systems, combat design, and interactive worlds."
+
+intro:
+
+* excerpt: "Explore a collection of gameplay systems, combat prototypes, and character-driven projects."
 
 feature_row:
-  - image_path: /assets/images/SimplyCom.png
-    alt: "Alternative text for image"
-    title: "Simpycom"
-    excerpt: "SimplyCom is a turn-based strategy game where the player takes command of a squad of super soldiers"
-    url: "/portfolio/SimplyCom/"
-    btn_label: "View"
-    btn_class: "btn--primary"
 
-  - image_path: /assets/images/Facade.png
-    alt: "Alternative text for image"
-    title: "Facade"
-    excerpt: "Facade is a pixel 2D local PVP arena fighting consiting of a variety of different playstyles."
-    url: "/portfolio/Facade/"
-    btn_label: "View"
-    btn_class: "btn--primary"
+* image_path: /assets/images/SimplyCom.png
+  title: "SimplyCom"
+  excerpt: "Turn-based tactical combat with squad-based strategy and decision-making."
+  url: "/portfolio/SimplyCom/"
+  btn_label: "View Project"
+  btn_class: "btn--primary"
 
-  - image_path: /assets/images/HarvestHorizon.png
-    alt: "Alternative text for image"
-    title: "Harvest Horizon"
-    excerpt: "A 2D drilling and crafting game where you restore a broken settlement."
-    url: "/portfolio/HarvestHorizon/"
-    btn_label: "View"
-    btn_class: "btn--primary"
+* image_path: /assets/images/Facade.png
+  title: "Facade"
+  excerpt: "Fast-paced 2D arena fighter focused on varied playstyles and tight mechanics."
+  url: "/portfolio/Facade/"
+  btn_label: "View Project"
+  btn_class: "btn--primary"
 
-  - image_path: /assets/images/Alice/Alice_Header.jpg
-    alt: "Alternative text for image"
-    title: "Alice"
-    excerpt: "Alice is the 7th knight of the Grand Order sworn to protect the crown."
-    url: "/portfolio/Character_Alice/"
-    btn_label: "View"
-    btn_class: "btn--primary"
+* image_path: /assets/images/HarvestHorizon.png
+  title: "Harvest Horizon"
+  excerpt: "A drilling and crafting experience centered around rebuilding and progression."
+  url: "/portfolio/HarvestHorizon/"
+  btn_label: "View Project"
+  btn_class: "btn--primary"
 
-  - image_path: /assets/images/Aisle/Aisle_Header.png
-    alt: "Alternative text for image"
-    title: "Aisle"
-    excerpt: "Aisle is a stylized 3D character built around a bold personality."
-    url: "/portfolio/Character_Aisle/"
-    btn_label: "View"
-    btn_class: "btn--primary"
+feature_row2:
+
+* image_path: /assets/images/Alice/Alice_Header.jpg
+  title: "Alice"
+  excerpt: "A knight of the Grand Order, designed with narrative and visual identity in mind."
+  url: "/portfolio/Character_Alice/"
+  btn_label: "View Character"
+  btn_class: "btn--primary"
+
+* image_path: /assets/images/Aisle/Aisle_Header.png
+  title: "Aisle"
+  excerpt: "Stylized 3D character built around bold personality and strong silhouette."
+  url: "/portfolio/Character_Aisle/"
+  btn_label: "View Character"
+  btn_class: "btn--primary"
+
 ---
 
+{% include feature_row id="intro" type="center" %}
 
-# Zen's Content
+## Featured Projects
 
-Page content
+{% include feature_row %}
 
+## Characters & Design
 
-<div class="project-grid">
-  <a href="/portfolio/SimplyCom/" class="project-card">
-    <img src="/assets/images/SimplyCom.png">
-    <h3>SimplyCom</h3>
-  </a>
-
-  <a href="/portfolio/Facade/" class="project-card">
-    <img src="/assets/images/Facade.png">
-    <h3>Facade</h3>
-  </a>
-
-  <a href="/portfolio/Character_Alice/" class="project-card">
-    <img src="/assets/images/Alice/Alice_Header.jpg">
-    <h3>Alice</h3>
-  </a>
-
-  <a href="/portfolio/Character_Aisle/" class="project-card">
-    <img src="/assets/images/Aisle/Aisle_Header.png">
-    <h3>Aisle</h3>
-  </a>
-</div>
+{% include feature_row id="feature_row2" %}
