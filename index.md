@@ -40,7 +40,7 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/Alice/Alice_Header.jpg"
+  - image_path: /assets/images/Alice/Alice_Header.jpg
     title: "Alice"
     excerpt: "Knight character concept built for narrative-driven worldbuilding."
     url: "/portfolio/Character_Alice/"
@@ -54,3 +54,13 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 ---
+
+# Zen's Hub
+
+A digital space where gameplay systems, mechanics, and worlds are engineered from scratch.
+
+---
+
+## Featured Projects
+
+{% include feature_row %}
