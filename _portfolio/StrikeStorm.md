@@ -44,6 +44,13 @@ As combos grow, the game responds with escalating music layers, visual effects, 
 ## Gallery
 {% include gallery id="strikestorm_gallery" %}
 
+## Gameplay
+
+<video controls autoplay muted loop style="width: 100%; border-radius: 10px;">
+  <source src="/assets/videos/StrikeStorm_Gameplay.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ### Resources
 Mattz Art - Autumn Forest 2D Pixel Art https://xzany.itch.io/autumn-forest-2d-pixel-art
 Mattz Art - Samurai Archer 2D Pixel Art https://xzany.itch.io/samurai-archer-2d-pixel-art
