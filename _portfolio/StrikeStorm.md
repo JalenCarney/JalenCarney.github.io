@@ -39,12 +39,11 @@ STRIKE STORM is a high-intensity rhythm-action combat game focused on precision,
 
 As combos grow, the game responds with escalating music layers, visual effects, and time scaling, pushing players into a fast-paced flow state. Special abilities can be activated after reaching combo milestones, temporarily altering the game’s visuals, audio, and mechanics for powerful moments of control.
 
-The experience is designed to reward consistency and mastery, with players balancing risk and speed to achieve the highest possible combo before breaking their streak.
-
 ---
 
 ## Gallery
 {% include gallery id="strikestorm_gallery" %}
 
 ### Resources
-- https://jc1014.itch.io
+Mattz Art - Autumn Forest 2D Pixel Art https://xzany.itch.io/autumn-forest-2d-pixel-art
+Mattz Art - Samurai Archer 2D Pixel Art https://xzany.itch.io/samurai-archer-2d-pixel-art
