@@ -63,8 +63,8 @@ jin_iteration_gallery:
     image_path: /assets/images/Jin/Jin_Iteration4.png
     alt: "Final polish stage"
 
-  - url: /assets/images/Jin/Jin_Iteration4.png
-    image_path: /assets/images/Jin/Jin_Iteration4.png
+  - url: /assets/images/Jin/Jin_Iteration5.png
+    image_path: /assets/images/Jin/Jin_Iteration5.png
     alt: "Final polish stage"
 ---
 ## Overview
