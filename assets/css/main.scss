@@ -18,9 +18,9 @@
 }
 
 /* Base background polish */
-body {
-  background: radial-gradient(circle at top, #12162a, var(--bg-dark));
-  color: var(--text);
+html, body {
+  background: radial-gradient(circle at top, #12162a, var(--bg-dark)) !important;
+  color: var(--text) !important;
 }
 
 /* =========================================================
@@ -65,19 +65,18 @@ body {
 }
 
 .project-card {
-  background: var(--bg-card);
+  background: linear-gradient(
+    145deg,
+    rgba(25, 25, 40, 0.9),
+    rgba(15, 15, 25, 0.8)
+  );
   border: 1px solid var(--border);
-  border-radius: 14px;
-  overflow: hidden;
-  text-decoration: none;
-  color: var(--text);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(120, 81, 169, 0.25);
 }
 
 .project-card img {
@@ -110,10 +109,14 @@ body {
 
 .toc .nav__title {
   background: var(--primary);
-  color: white;
-  border-radius: 6px;
+  box-shadow: 0 0 20px var(--primary-soft);
 }
 
+.sidebar {
+  background: rgba(10, 12, 24, 0.85);
+  backdrop-filter: blur(12px);
+  border-right: 1px solid var(--border);
+}
 /* =========================================================
    💼 PORTFOLIO META (clean glass panel)
    ========================================================= */
@@ -170,4 +173,9 @@ a {
 
 a:hover {
   color: var(--primary);
+}
+
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  text-shadow: 0 10px 30px rgba(0,0,0,0.6);
 }
