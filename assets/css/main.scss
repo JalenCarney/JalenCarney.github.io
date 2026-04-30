@@ -5,7 +5,7 @@
 @import "minimal-mistakes";
 
 /* =========================================================
-   🎨 DESIGN SYSTEM (GLOBAL AESTHETIC)
+   🎨 DESIGN SYSTEM
    ========================================================= */
 
 :root {
@@ -18,44 +18,115 @@
   --border: rgba(255, 255, 255, 0.08);
 }
 
-/* Base background polish */
-html, body {
+/* =========================================================
+   🌌 GLOBAL BACKGROUND (fixes grey default MM background)
+   ========================================================= */
+
+html,
+body,
+.page {
   background: radial-gradient(circle at top, #12162a, var(--bg-dark)) !important;
   color: var(--text) !important;
 }
 
+/* kill leftover grey containers */
+.page__content,
+.initial-content {
+  background: transparent !important;
+}
+
 /* =========================================================
-   🔘 BUTTONS (modern glow aesthetic)
+   🧭 TOP NAV (FULL FIX — removes grey masthead completely)
+   ========================================================= */
+
+.masthead,
+.masthead__inner-wrap {
+  background: rgba(10, 12, 24, 0.92) !important;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+/* remove default nav background */
+.greedy-nav {
+  background: transparent !important;
+}
+
+/* nav links */
+.greedy-nav a {
+  color: var(--text) !important;
+  transition: all 0.2s ease;
+}
+
+.greedy-nav a:hover {
+  color: var(--primary) !important;
+  text-shadow: 0 0 12px var(--primary-soft);
+}
+
+/* active underline */
+.greedy-nav .visible-links a {
+  border-bottom: 2px solid transparent;
+}
+
+.greedy-nav .visible-links a:hover {
+  border-bottom: 2px solid var(--primary);
+}
+
+/* =========================================================
+   🔘 BUTTONS
    ========================================================= */
 
 .btn--primary {
   background: var(--primary);
   border-radius: 10px;
   transition: all 0.2s ease;
-  box-shadow: 0 0 0 transparent;
 }
 
 .btn--primary:hover {
-  background: var(--primary);
   box-shadow: 0 0 20px var(--primary-soft);
   transform: translateY(-2px);
 }
 
-.btn--primary:visited {
-  background: var(--primary);
-}
-
 /* =========================================================
-   🧭 HERO SECTION (clean cinematic feel)
+   🧭 HERO SECTION
    ========================================================= */
 
 .page__hero--overlay {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-position: center 20%;
   filter: saturate(1.1);
 }
 
+.page__hero {
+  text-align: center;
+  padding: 6em 1em 4em;
+}
+
+/* hero text */
+.page__title {
+  font-size: 3.5rem;
+  color: var(--text);
+  letter-spacing: 1px;
+}
+
+.page__lead {
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead {
+  text-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
 /* =========================================================
-   🧩 PROJECT GRID (modern glass cards)
+   🧩 PROJECT GRID
    ========================================================= */
 
 .project-grid {
@@ -66,13 +137,16 @@ html, body {
 }
 
 .project-card {
-  background: linear-gradient(
-    145deg,
-    rgba(25, 25, 40, 0.9),
-    rgba(15, 15, 25, 0.8)
+  background: linear-gradient(145deg,
+    rgba(25,25,40,0.9),
+    rgba(15,15,25,0.8)
   );
   border: 1px solid var(--border);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  border-radius: 14px;
+  overflow: hidden;
+  color: var(--text);
+  text-decoration: none;
+  transition: 0.25s ease;
 }
 
 .project-card:hover {
@@ -85,17 +159,47 @@ html, body {
   height: 200px;
   object-fit: cover;
   object-position: top;
-  filter: contrast(1.05) saturate(1.05);
 }
 
 .project-card h3 {
   padding: 12px;
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 /* =========================================================
-   📄 FOOTER (clean minimal + tech feel)
+   📄 SIDEBAR / TOC
+   ========================================================= */
+
+.sidebar {
+  background: rgba(10, 12, 24, 0.85);
+  backdrop-filter: blur(12px);
+  border-right: 1px solid var(--border);
+}
+
+.toc .nav__title {
+  background: var(--primary);
+  box-shadow: 0 0 20px var(--primary-soft);
+}
+
+/* =========================================================
+   💼 PORTFOLIO META
+   ========================================================= */
+
+.portfolio-meta {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+}
+
+.portfolio-meta h3 {
+  background: rgba(120, 81, 169, 0.25);
+  padding: 8px;
+}
+
+/* =========================================================
+   📄 FOOTER
    ========================================================= */
 
 .page__footer {
@@ -105,67 +209,7 @@ html, body {
 }
 
 /* =========================================================
-   📘 TABLE OF CONTENTS (modern sidebar panel)
-   ========================================================= */
-
-.toc .nav__title {
-  background: var(--primary);
-  box-shadow: 0 0 20px var(--primary-soft);
-}
-
-.sidebar {
-  background: rgba(10, 12, 24, 0.85);
-  backdrop-filter: blur(12px);
-  border-right: 1px solid var(--border);
-}
-/* =========================================================
-   💼 PORTFOLIO META (clean glass panel)
-   ========================================================= */
-
-.portfolio-meta {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  margin-top: 40px;
-  backdrop-filter: blur(8px);
-}
-
-.portfolio-meta h3 {
-  background: rgba(120, 81, 169, 0.25);
-  color: var(--text);
-  padding: 8px;
-}
-
-.portfolio-details {
-  padding: 10px;
-  border-top: 1px solid var(--border);
-}
-
-/* =========================================================
-   📝 POST LIST (clean layout refinement)
-   ========================================================= */
-
-.post__item {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  margin-bottom: 2em;
-}
-
-.post__item-teaser img {
-  border-radius: 10px;
-}
-
-.post__item-title {
-  margin: 0 0 0.25em 0;
-}
-
-.post__item-excerpt {
-  color: var(--muted);
-}
-
-/* =========================================================
-   ✨ SMALL POLISH
+   ✨ LINKS
    ========================================================= */
 
 a {
@@ -174,83 +218,4 @@ a {
 
 a:hover {
   color: var(--primary);
-}
-
-.page__hero--overlay .page__title,
-.page__hero--overlay .page__lead {
-  text-shadow: 0 10px 30px rgba(0,0,0,0.6);
-}
-
-.page__hero {
-  padding: 6em 1em 4em 1em;
-  text-align: center;
-  background: radial-gradient(circle at top, #12162a, var(--bg-dark));
-}
-
-/* Make hero feel like a designed landing page */
-.page__hero--overlay {
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Title styling (this is what you are missing) */
-.page__title {
-  font-size: 3.5rem;
-  letter-spacing: 1px;
-  color: var(--text);
-}
-
-/* Subtitle / lead text */
-.page__lead {
-  font-size: 1.2rem;
-  color: var(--muted);
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* =========================================================
-   🧭 TOP NAV (masthead) THEME FIX
-   ========================================================= */
-
-.masthead,
-.masthead__inner-wrap {
-  background: rgba(10, 12, 24, 0.92) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid rgba(120, 81, 169, 0.25);
-}
-
-/* kill theme background completely */
-.greedy-nav {
-  background: transparent !important;
-}
-
-/* links */
-.greedy-nav a {
-  color: #e8e8f0 !important;
-}
-
-/* hover glow */
-.greedy-nav a:hover {
-  color: #7851A9 !important;
-  text-shadow: 0 0 10px rgba(120, 81, 169, 0.4);
-}
-
-/* active underline */
-.greedy-nav .visible-links a {
-  border-bottom: 2px solid transparent;
-}
-
-.greedy-nav .visible-links a:hover {
-  border-bottom: 2px solid #7851A9;
-}
-
-.masthead {
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-}
-
-.greedy-nav {
-  padding: 0.5em 1em;
 }
