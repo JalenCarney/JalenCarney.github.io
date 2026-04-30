@@ -1,197 +1,173 @@
 ---
-# THEME IMPORTS
 ---
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+/* =========================================================
+   🎨 DESIGN SYSTEM (GLOBAL AESTHETIC)
+   ========================================================= */
 
-
-
-/* ----------------------------------------------------------------------------- */
-/* ⏺️ Button  Styles                                                           */
-/* ----------------------------------------------------------------------------- */
-
-.btn--primary{
-  background-color: #7851A9;
+:root {
+  --bg-dark: #0b0f1a;
+  --bg-card: rgba(20, 20, 30, 0.85);
+  --primary: #7851A9;
+  --primary-soft: rgba(120, 81, 169, 0.25);
+  --text: #e8e8f0;
+  --muted: #a0a0b3;
+  --border: rgba(255, 255, 255, 0.08);
 }
-.btn--primary:hover{
-  background-color: #7951a95a;
+
+/* Base background polish */
+body {
+  background: radial-gradient(circle at top, #12162a, var(--bg-dark));
+  color: var(--text);
+}
+
+/* =========================================================
+   🔘 BUTTONS (modern glow aesthetic)
+   ========================================================= */
+
+.btn--primary {
+  background: var(--primary);
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.btn--primary:hover {
+  background: var(--primary);
+  box-shadow: 0 0 20px var(--primary-soft);
+  transform: translateY(-2px);
 }
 
 .btn--primary:visited {
-  background-color: #7851A9;
+  background: var(--primary);
 }
 
-/* ----------------------------------------------------------------------------- */
-/* 🦶 Page Footer Styles                                                        */
-/* ----------------------------------------------------------------------------- */
-
-.page__footer{
-  background: #0a2240;
-  color: #fff;
-  margin-top: 1em;
-}
-.page__footer footer {
-  margin-top: 1em;
-}
-
-.page__footer-container {
-  display: flex;
-  justify-content: space-between; /* Pushes one left, one right */
-  align-items: center;           /* Vertically centers them */
-  flex-wrap: wrap;               /* Ensures it looks good on mobile */
-
-}
-
-.page__footer-left {
-  flex: 1;
-}
-
-.page__footer-right {
-  margin-left: 20px;
-}
-
-.footer-logo {
-  height: auto; /* Adjust size as needed */
-  width: auto;
-}
-
-/* Mobile fix: stack them if the screen is too small */
-@media (max-width: 600px) {
-  .page__footer-container {
-    flex-direction: column;
-    text-align: center;
-  }
-  .page__footer-right {
-    margin-left: 0;
-  }
-}
-
-/* ----------------------------------------------------------------------------- */
-/* 📘 Table of Contents Styles                                                   */
-/* ----------------------------------------------------------------------------- */
-
-.toc .nav__title {
-  background:#0a2240 ;
-}
-
-
-/* ----------------------------------------------------------------------------- */
-/* 💼 Portfolio Styles                                                           */
-/* ----------------------------------------------------------------------------- */
-
-.portfolio-meta{
-  border: 1px solid #f2f3f3;
-  border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
-  margin-top: 50px;
-  margin-right: 10px;
-}
-
-.portfolio-meta h3{
-  margin: 0;
-  padding: 5px;
-  border-start-start-radius: 4px;
-  border-start-end-radius: 4px;
-  background: #d0b787;
-  color: #0a2240;
-}
-
-.portfolio-details{
-  padding: 5px;
-  border: solid 1px #f2f3f3;
-}
-
-.portfolio-details p{
-  margin: 0.5em auto 0.5em;
-}
-
-
-/* ----------------------------------------------------------------------------- */
-/* 📝 Post Styles                                                                */
-/* ----------------------------------------------------------------------------- */
-
-
-/* Container for the whole post item */
-.post__item {
-  display: flex;
-  align-items: center; /* This handles the vertical centering */
-  clear: both;
-  margin-bottom: 2em;
-}
-
-/* The Thumbnail Container */
-.post__item-teaser {
-  flex: 0 0 150px;    /* Fixed width: 150px, won't grow or shrink */
-  margin-right: 20px;
-}
-
-.post__item-teaser img {
-  width: 100%;        /* Ensures image fills the 150px container */
-  display: block;
-  border-radius: 4px;
-}
-
-/* The Text Content (Title + Excerpt) */
-.post__item-body {
-  flex: 1;            /* Takes up the remaining horizontal space */
-}
-
-/* Clean up default margins so centering looks perfect */
-.post__item-title {
-  margin-top: 0 !important;
-  margin-bottom: 0.25em;
-}
-
-.post__item-excerpt {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+/* =========================================================
+   🧭 HERO SECTION (clean cinematic feel)
+   ========================================================= */
 
 .page__hero--overlay {
-  background-position: center 10%;
+  background-position: center 20%;
+  filter: saturate(1.1);
 }
+
+/* =========================================================
+   🧩 PROJECT GRID (modern glass cards)
+   ========================================================= */
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
   margin-top: 2em;
 }
 
 .project-card {
-  text-decoration: none;
-  color: white;
-  background: #111;
-  border-radius: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
   overflow: hidden;
-  transition: transform 0.2s ease;
-}
-
-.project-card h3 {
-  margin: 5px 0 8px 0;
-  padding: 5px 10px 10px;
-  text-align: center;
-}
-
-.project-card img {
-  width: 100%;
-  display: block;
-}
-
-.project-card h3 {
-  padding: 10px;
-  text-align: center;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  backdrop-filter: blur(10px);
 }
 
 .project-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 .project-card img {
   width: 100%;
   height: 200px;
-  object-fit: cover;   
-  object-position: top; 
+  object-fit: cover;
+  object-position: top;
+  filter: contrast(1.05) saturate(1.05);
+}
+
+.project-card h3 {
+  padding: 12px;
+  text-align: center;
+  margin: 0;
+}
+
+/* =========================================================
+   📄 FOOTER (clean minimal + tech feel)
+   ========================================================= */
+
+.page__footer {
+  background: #0a0f1f;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+
+/* =========================================================
+   📘 TABLE OF CONTENTS (modern sidebar panel)
+   ========================================================= */
+
+.toc .nav__title {
+  background: var(--primary);
+  color: white;
+  border-radius: 6px;
+}
+
+/* =========================================================
+   💼 PORTFOLIO META (clean glass panel)
+   ========================================================= */
+
+.portfolio-meta {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-top: 40px;
+  backdrop-filter: blur(8px);
+}
+
+.portfolio-meta h3 {
+  background: rgba(120, 81, 169, 0.25);
+  color: var(--text);
+  padding: 8px;
+}
+
+.portfolio-details {
+  padding: 10px;
+  border-top: 1px solid var(--border);
+}
+
+/* =========================================================
+   📝 POST LIST (clean layout refinement)
+   ========================================================= */
+
+.post__item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.post__item-teaser img {
+  border-radius: 10px;
+}
+
+.post__item-title {
+  margin: 0 0 0.25em 0;
+}
+
+.post__item-excerpt {
+  color: var(--muted);
+}
+
+/* =========================================================
+   ✨ SMALL POLISH
+   ========================================================= */
+
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary);
 }
