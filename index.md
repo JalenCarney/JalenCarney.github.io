@@ -34,10 +34,10 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/HarvestHorizon.png
-    title: "Harvest Horizon"
-    excerpt: "Mining and crafting survival loop centered on rebuilding settlements."
-    url: "/portfolio/HarvestHorizon/"
+  - image_path: /assets/images/Soulsync/Soulsync_Header.gif
+    title: "Soulsync"
+    excerpt: "A PvE multiplayer roguelike where players are bound by a shared curse while uncovering the truth behind a corporate-controlled fantasy world."
+    url: "/portfolio/Soulsync/"
     btn_label: "View Project"
     btn_class: "btn--primary"
 
