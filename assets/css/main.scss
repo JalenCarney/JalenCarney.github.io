@@ -53,15 +53,45 @@ body,
   background: transparent !important;
 }
 
-/* nav links */
+/* =========================================================
+   🔮 NAV TEXT: CONSTANT HERO GLOW (like "Zen's Hub")
+   ========================================================= */
+
 .greedy-nav a {
-  color: var(--text) !important;
-  transition: all 0.2s ease;
+  color: #eae6ff !important;
+
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+
+  text-shadow:
+    0 0 6px rgba(120, 81, 169, 0.25),
+    0 0 14px rgba(120, 81, 169, 0.15);
+
+  transition: all 0.25s ease;
 }
 
+/* 💡 hover = stronger energy */
 .greedy-nav a:hover {
-  color: var(--primary) !important;
-  text-shadow: 0 0 12px var(--primary-soft);
+  color: #ffffff !important;
+
+  text-shadow:
+    0 0 8px rgba(120, 81, 169, 0.6),
+    0 0 18px rgba(120, 81, 169, 0.45),
+    0 0 30px rgba(120, 81, 169, 0.25);
+
+  transform: translateY(-1px) scale(1.05);
+}
+
+/* ⚡ active page glow */
+.greedy-nav .active a,
+.greedy-nav a.active {
+  color: #ffffff !important;
+
+  text-shadow:
+    0 0 10px rgba(120, 81, 169, 0.75),
+    0 0 22px rgba(120, 81, 169, 0.55),
+    0 0 40px rgba(120, 81, 169, 0.35);
 }
 
 /* active underline */
