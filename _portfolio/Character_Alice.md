@@ -30,10 +30,6 @@ alice_render_gallery:
     alt: "Alice Action"
 
 alice_animation_gallery:
-  - url: /assets/images/Alice/Alice_Idle.gif
-    image_path: /assets/images/Alice/Alice_Idle.gif
-    alt: "Alice idle animation"
-
   - url: /assets/images/Alice/Alice_Turntable.gif
     image_path: /assets/images/Alice/Alice_Turntable.gif
     alt: "Turntable animation of Alice"
