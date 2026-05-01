@@ -20,6 +20,15 @@ harvesthorizon_gallery:
   - url: /assets/images/HarvestHorizon_Game1.png
     image_path: /assets/images/HarvestHorizon_Game1.png
     alt: "Gameplay screenshot 2"
+  - url: /assets/images/HarvestHorizon_Game2.png
+    image_path: /assets/images/HarvestHorizon_Game2.png
+    alt: "Gameplay screenshot 2"
+  - url: /assets/images/HarvestHorizon_Game3.png
+    image_path: /assets/images/HarvestHorizon_Game3.png
+    alt: "Gameplay screenshot 2"
+  - url: /assets/images/HarvestHorizon_Game4.png
+    image_path: /assets/images/HarvestHorizon_Game4.png
+    alt: "Gameplay screenshot 2"
 ---
 ## Heading 
 Harvest Horizon is a 2D drilling and crafting game where the player is tasked with restoring a broken-down settlement. Players gather resources through a drilling mini-game, use those materials to craft upgrades, and repair structures across the environment. As progress is made, new areas and challenges are unlocked, leading to the discovery of key items needed to complete the final objective and escape the area.
@@ -30,4 +39,4 @@ Harvest Horizon is a 2D drilling and crafting game where the player is tasked wi
 {% include gallery id="harvesthorizon_gallery" %}
 
 ### Resources
-- https://jc1014.itch.io/harvest-horizon
+<iframe frameborder="0" src="https://itch.io/embed/3176247" width="552" height="167"><a href="https://jc1014.itch.io/harvest-horizon">Harvest Horizon by Zenith, Bryson Pitzer, Ryan</a></iframe>
