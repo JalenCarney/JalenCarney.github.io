@@ -38,3 +38,4 @@ gallery:
     image_path: /assets/images/Zeniverse/Zeniverse_3GIF.gif
     alt: "Library + discovery interface"
 ---
+{% include gallery id="gallery" %}
