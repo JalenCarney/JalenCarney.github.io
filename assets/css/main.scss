@@ -156,86 +156,45 @@ body,
 }
 
 /* =========================================================
-   🧊 PROJECT CARD = FEATURE CARD (UNIFIED DESIGN)
+   🧩 PROJECT GRID
    ========================================================= */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-top: 2em;
+}
 
 .project-card {
-  position: relative;
-  display: block;
-  border-radius: 16px;
-  overflow: hidden;
-  text-decoration: none;
-  color: var(--text);
-
-  /* glass base (same as feature__item) */
-  background: rgba(20, 20, 30, 0.35);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
-  border: 1px solid rgba(255, 255, 255, 0.08);
-
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
-}
-
-/* =========================================================
-   🌟 GLOW LAYER (same as featured cards)
-   ========================================================= */
-
-.project-card::before {
-  content: "";
-  position: absolute;
-  inset: -2px;
-  background: linear-gradient(
-    135deg,
-    rgba(120, 81, 169, 0.0),
-    rgba(120, 81, 169, 0.25),
-    rgba(120, 81, 169, 0.0)
+  background: linear-gradient(145deg,
+    rgba(25,25,40,0.9),
+    rgba(15,15,25,0.8)
   );
-  filter: blur(20px);
-  opacity: 0;
-  transition: opacity 0.35s ease;
-  z-index: 0;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  color: var(--text);
+  text-decoration: none;
+  transition: 0.25s ease;
 }
-
-/* =========================================================
-   💡 HOVER EFFECT (lift + glow + depth)
-   ========================================================= */
 
 .project-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(120, 81, 169, 0.25);
 }
-
-.project-card:hover::before {
-  opacity: 1;
-}
-
-/* =========================================================
-   🖼 IMAGE (match featured card behavior)
-   ========================================================= */
 
 .project-card img {
   width: 100%;
-  height: 240px;
+  height: 200px;
   object-fit: cover;
-  object-position: center;
-  transition: transform 0.4s ease;
+  object-position: top;
 }
-
-.project-card:hover img {
-  transform: scale(1.05);
-}
-
-/* =========================================================
-   🧾 TITLE LAYER
-   ========================================================= */
 
 .project-card h3 {
+  padding: 12px;
   margin: 0;
-  padding: 14px;
   text-align: center;
-  position: relative;
-  z-index: 2;
 }
 
 /* =========================================================
@@ -665,89 +624,4 @@ a:hover {
 /* remove leftover spacing wrapper */
 .layout--single .page__inner-wrap {
   max-width: 100% !important;
-}
-
-/* =========================================================
-   🚀 HARD OVERRIDE: MINIMAL MISTAKES CONTAINER SYSTEM
-   ========================================================= */
-
-/* kills the global width limiter */
-.container,
-.container--fluid,
-.wrapper,
-.initial-content {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-
-/* main MM layout wrapper (this is usually the culprit) */
-.archive,
-.page__inner-wrap,
-.page__content,
-.layout--single .page__inner-wrap,
-.layout--single .page__content {
-  max-width: 100% !important;
-  width: 100% !important;
-}
-
-/* REMOVE CENTERING BEHAVIOR */
-.page__inner-wrap {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-/* optional: control padding only here */
-.page__content {
-  padding-left: clamp(16px, 5vw, 120px) !important;
-  padding-right: clamp(16px, 5vw, 120px) !important;
-}
-
-/* =========================================================
-   👤 HERO PROFILE (LEFT EDGE ALIGNMENT)
-   ========================================================= */
-
-.hero-profile {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-
-  width: 100%;
-  padding-left: clamp(16px, 5vw, 120px);
-  padding-right: clamp(16px, 5vw, 120px);
-
-  margin-top: 20px;
-}
-
-.hero-avatar {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  object-fit: cover;
-
-  border: 2px solid rgba(120, 81, 169, 0.6);
-  box-shadow: 0 0 25px rgba(120, 81, 169, 0.25);
-}
-
-.hero-info h2 {
-  margin: 0;
-  color: #fff;
-}
-
-.hero-info p {
-  margin: 4px 0 10px;
-  color: var(--muted);
-}
-
-/* links */
-.hero-links a {
-  margin-right: 14px;
-  color: var(--text);
-  text-decoration: none;
-
-  transition: 0.2s ease;
-}
-
-.hero-links a:hover {
-  color: var(--primary);
-  text-shadow: 0 0 10px rgba(120, 81, 169, 0.5);
 }
