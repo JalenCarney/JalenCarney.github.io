@@ -46,4 +46,4 @@ SimplyCom is a turn-based strategy game where players command a squad of super s
 {% include gallery id="simplycom_gallery" %}
 
 ### Resources
-- https://jc1014.itch.io/simplycom
+<iframe frameborder="0" src="https://itch.io/embed/3119817" width="552" height="167"><a href="https://jc1014.itch.io/simplycom">SimplyCom by Zenith</a></iframe>
