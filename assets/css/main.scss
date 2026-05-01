@@ -627,8 +627,11 @@ a:hover {
 }
 
 .sidebar {
-  position: sticky;
-  top: 90px; /* adjust to match masthead height */
+  position: fixed;
+  top: 90px;
+  left: 0;
   height: calc(100vh - 90px);
   overflow-y: auto;
+  width: 260px; /* adjust if needed */
+  z-index: 1000;
 }
