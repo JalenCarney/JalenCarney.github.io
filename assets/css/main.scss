@@ -221,22 +221,19 @@ a:hover {
 }
 
 /* =========================================================
-   🧭 TOP NAV (TRUE CINEMATIC GLASS + VISIBLE GLOW)
+   🧭 TOP NAV (CINEMATIC GLASS + GLOW + SHIMMER)
    ========================================================= */
 
 .masthead {
   position: sticky;
   top: 0;
   width: 100%;
-
   z-index: 9999;
+
+  overflow: hidden;
 
   /* glass base */
   background: rgba(10, 12, 24, 0.35) !important;
-
-  /* REQUIRED for glow visibility */
-  overflow: hidden;
-
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
 
@@ -246,30 +243,57 @@ a:hover {
     0 10px 35px rgba(0, 0, 0, 0.55);
 }
 
-/* 🔥 THIS is your glow layer (fixes invisibility issue) */
+/* 🌟 GLOW + DEPTH LAYER */
 .masthead::before {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 0;
+  pointer-events: none;
 
   background: radial-gradient(
     circle at top center,
     rgba(120, 81, 169, 0.35),
-    transparent 70%
+    transparent 65%
   );
-
-  opacity: 1; /* IMPORTANT */
-  z-index: 0;
-  pointer-events: none;
 }
 
-/* keep nav content above glow */
+/* ✨ SHIMMER LAYER (KEY ADDITION) */
+.masthead::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.06) 45%,
+    rgba(255, 255, 255, 0.12) 50%,
+    rgba(255, 255, 255, 0.06) 55%,
+    transparent 100%
+  );
+
+  transform: translateX(-100%);
+  animation: navShimmer 8s infinite ease-in-out;
+}
+
+@keyframes navShimmer {
+  0%   { transform: translateX(-120%); opacity: 0; }
+  10%  { opacity: 1; }
+  50%  { transform: translateX(120%); opacity: 0.6; }
+  100% { transform: translateX(120%); opacity: 0; }
+}
+
+/* CONTENT ABOVE EFFECTS */
 .masthead__inner-wrap {
   position: relative;
   z-index: 2;
 
   max-width: 100% !important;
   width: 100% !important;
+
   padding: 0.75rem 2rem;
 
   display: flex;
@@ -277,23 +301,49 @@ a:hover {
   justify-content: space-between;
 }
 
-/* remove greedy-nav background */
+/* NAV LINKS */
 .greedy-nav {
   background: transparent !important;
-  position: relative;
-  z-index: 2;
 }
 
-/* LINKS */
 .greedy-nav a {
   color: var(--text) !important;
+  position: relative;
   transition: all 0.25s ease;
 }
 
-/* hover glow (now actually visible because background contrast is lower) */
+/* 🔥 LINK GLOW ON HOVER */
 .greedy-nav a:hover {
   color: #fff !important;
-  text-shadow: 0 0 14px rgba(120, 81, 169, 0.6);
+  text-shadow:
+    0 0 10px rgba(120, 81, 169, 0.6),
+    0 0 20px rgba(120, 81, 169, 0.35);
+  transform: translateY(-1px);
+}
+
+/* UNDERLINE ENERGY LINE */
+.greedy-nav .visible-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(120, 81, 169, 0.9),
+    transparent
+  );
+
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.greedy-nav .visible-links a:hover::after {
+  transform: scaleX(1);
 }
 
 /* =========================================================
