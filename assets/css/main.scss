@@ -667,3 +667,37 @@ a:hover {
   max-width: 100% !important;
 }
 
+/* =========================================================
+   🚀 HARD OVERRIDE: MINIMAL MISTAKES CONTAINER SYSTEM
+   ========================================================= */
+
+/* kills the global width limiter */
+.container,
+.container--fluid,
+.wrapper,
+.initial-content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* main MM layout wrapper (this is usually the culprit) */
+.archive,
+.page__inner-wrap,
+.page__content,
+.layout--single .page__inner-wrap,
+.layout--single .page__content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* REMOVE CENTERING BEHAVIOR */
+.page__inner-wrap {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* optional: control padding only here */
+.page__content {
+  padding-left: clamp(16px, 5vw, 120px) !important;
+  padding-right: clamp(16px, 5vw, 120px) !important;
+}
