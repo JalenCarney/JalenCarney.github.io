@@ -580,42 +580,48 @@ a:hover {
 }
 
 /* =========================================================
-   📐 FULL WIDTH PAGE LAYOUT FIX (Portfolio feel)
+   🚀 TRUE FULL-WIDTH PORTFOLIO LAYOUT OVERRIDE
    ========================================================= */
 
+/* kill global page centering */
 .page {
   margin: 0 !important;
+  padding: 0 !important;
 }
 
+/* FORCE full width container */
 .page__inner-wrap {
-  max-width: 1400px !important;
-  margin: 0 auto !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* widen content spacing */
+/* REMOVE BLOG WIDTH LIMITS */
 .page__content {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
-/* remove blog-style narrow text limits */
+/* stop text column narrowing */
 .page__content p,
 .page__content li,
 .page__content h1,
 .page__content h2,
 .page__content h3 {
-  max-width: 100%;
+  max-width: 100% !important;
 }
 
-/* =========================================================
-   🧱 REMOVE BLOG COLUMN FEEL (project pages only)
-   ========================================================= */
-
-.layout--single .page__content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
+/* PROJECT PAGES: remove sidebar entirely */
 .layout--single .sidebar {
-  display: none; /* optional */
+  display: none !important;
+}
+
+/* remove leftover spacing wrapper */
+.layout--single .page__inner-wrap {
+  max-width: 100% !important;
 }
