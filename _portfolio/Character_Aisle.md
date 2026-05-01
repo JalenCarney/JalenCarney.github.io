@@ -30,10 +30,6 @@ aisle_render_gallery:
     alt: "Aisle action pose"
 
 aisle_animation_gallery:
-  - url: /assets/images/Aisle/Aisle_Idle.gif
-    image_path: /assets/images/Aisle/Aisle_Idle.gif
-    alt: "Aisle idle animation"
-
   - url: /assets/images/Aisle/Aisle_Turntable.gif
     image_path: /assets/images/Aisle/Aisle_Turntable.gif
     alt: "Turntable animation of Aisle"
