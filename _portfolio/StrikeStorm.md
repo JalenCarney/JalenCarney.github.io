@@ -1,56 +1,72 @@
 ---
-title: "STRIKE STORM"
-excerpt: "STRIKE STORM is a fast-paced rhythm-action combat game where players chain combos, unleash special attacks, and fight to maintain momentum as the game speed intensifies."
+title: "ZeniVerse (Game Store Design)"
+excerpt: "A customizable digital game storefront concept where users can personalize layout, themes, and content hierarchy to reflect their identity."
 
 header:
-  overlay_image: "/assets/images/StrikeStorm.png"
-
-  teaser: "/assets/images/StrikeStorm.png"
+  overlay_image: "/assets/images/Zeniverse/Zeniverse_Header.png"
+  teaser: "/assets/images/Zeniverse/Zeniverse_Header.png"
   overlay_filter: 0.5
 
-project_brief: "Project downloadable from Itch.io https://jc1014.itch.io"
-project_role: "Developer of project"
-project_tools: "Unity"
-project_date: "4/28/26"
+project_brief: "Interaction design project exploring personalized UI systems for digital storefronts."
+project_role: "Interaction Designer / UI Systems Designer"
+project_tools: "UX Research, Figma, UI Prototyping"
+project_date: "2026"
 
-strikestorm_gallery:
-  - url: /assets/images/StrikeStorm.png
-    image_path: /assets/images/StrikeStorm.png
-    alt: "Gameplay screenshot"
-  - url: /assets/images/StrikeStorm_Game1.png
-    image_path: /assets/images/StrikeStorm_Game1.png
-    alt: "Gameplay screenshot 1"
-  - url: /assets/images/StrikeStorm_Game2.png
-    image_path: /assets/images/StrikeStorm_Game2.png
-    alt: "Gameplay screenshot 2"
-  - url: /assets/images/StrikeStorm_Game3.png
-    image_path: /assets/images/StrikeStorm_Game3.png
-    alt: "Gameplay screenshot 3"
-  - url: /assets/images/StrikeStorm_Game4.png
-    image_path: /assets/images/StrikeStorm_Game4.png
-    alt: "Gameplay screenshot 4"
-  - url: /assets/images/StrikeStorm_Game5.png
-    image_path: /assets/images/StrikeStorm_Game5.png
-    alt: "Gameplay screenshot 5"
+zeniverse_gallery:
+  - url: /assets/images/Zeniverse/Zeniverse_1.png
+    image_path: /assets/images/Zeniverse/Zeniverse_1.png
+    alt: "Storefront customization interface"
+  - url: /assets/images/Zeniverse/Zeniverse_2.png
+    image_path: /assets/images/Zeniverse/Zeniverse_2.png
+    alt: "Theme personalization system"
+  - url: /assets/images/Zeniverse/Zeniverse_3.png
+    image_path: /assets/images/Zeniverse/Zeniverse_3.png
+    alt: "Adaptive game discovery UI"
+  - url: /assets/images/Zeniverse/Zeniverse_4.png
+    image_path: /assets/images/Zeniverse/Zeniverse_4.png
+    alt: "Library + layout configuration"
 ---
 
-## Heading 
-STRIKE STORM is a high-intensity rhythm-action combat game focused on precision, timing, and momentum. Players attack enemies from both sides, chaining hits together to build combos while dynamically increasing the speed and intensity of gameplay.
 
-As combos grow, the game responds with escalating music layers, visual effects, and time scaling, pushing players into a fast-paced flow state. Special abilities can be activated after reaching combo milestones, temporarily altering the game’s visuals, audio, and mechanics for powerful moments of control.
+## Heading
+
+ZeniVerse is a personalized game store UI concept focused on user-driven customization. Instead of a static storefront, the system allows users to design how their digital game library is experienced.
+
+The interface adapts around the user’s preferences, enabling changes in layout structure, visual theme, and content prioritization. This creates a storefront that feels individually owned rather than universally imposed.
+
+As users interact with the system, recommendations and layout emphasis shift based on browsing behavior and selected preferences, reinforcing a sense of ownership over the digital environment.
 
 ---
 
 ## Gallery
-{% include gallery id="strikestorm_gallery" %}
 
-## Gameplay
+{% include gallery id="zeniverse_gallery" %}
+
+---
+
+## Interaction Design Focus
+
+ZeniVerse explores how digital storefronts can move beyond standardized layouts into adaptive UI systems.
+
+Key design goals included:
+- Personal expression through interface customization
+- Modular layout systems for flexible browsing
+- Reduced friction in navigating game discovery
+- Strong visual identity per user profile
+
+---
+
+## Gameplay (Interaction Demo Concept)
 
 <video controls autoplay muted loop style="width: 100%; border-radius: 10px;">
-  <source src="/assets/videos/StrikeStorm_Gameplay.mp4" type="video/mp4">
+  <source src="/assets/videos/Zeniverse_Demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### Resources
-Mattz Art - Autumn Forest 2D Pixel Art https://xzany.itch.io/autumn-forest-2d-pixel-art
-Mattz Art - Samurai Archer 2D Pixel Art https://xzany.itch.io/samurai-archer-2d-pixel-art
+---
+
+## Resources
+
+Figma Prototype — Interaction Design Mockup  
+Unity UI Inspiration References  
+UX Research Notes — Customization Systems in Game Stores
