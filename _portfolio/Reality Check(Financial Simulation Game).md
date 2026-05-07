@@ -68,4 +68,5 @@ Iteration focused on balancing the economy so that players who make reasonable d
 ---
 
 ## Resources
-<iframe frameborder="0" src="https://itch.io/embed-upload/17456980?color=032700" allowfullscreen="" width="640" height="380"><a href="https://jc1014.itch.io/reality-check">Play Reality Check Budgeting Simulator on itch.io</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/4552381?bg_color=00270b&amp;fg_color=ffffff&amp;link_color=4a5ecb&amp;border_color=31552e" width="552" height="167"><a href="https://jc1014.itch.io/reality-check">Reality Check Budgeting Simulator by Zenith</a></iframe>
+https://jc1014.itch.io/reality-check
