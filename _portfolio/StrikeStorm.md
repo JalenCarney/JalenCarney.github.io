@@ -52,5 +52,6 @@ As combos grow, the game responds with escalating music layers, visual effects, 
 </video>
 
 ### Resources
+<iframe frameborder="0" src="https://itch.io/embed/4552790" width="552" height="167"><a href="https://jc1014.itch.io/strike-storm">Strike Storm by Zenith</a></iframe>
 Mattz Art - Autumn Forest 2D Pixel Art https://xzany.itch.io/autumn-forest-2d-pixel-art
 Mattz Art - Samurai Archer 2D Pixel Art https://xzany.itch.io/samurai-archer-2d-pixel-art
