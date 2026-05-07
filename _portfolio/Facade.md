@@ -42,4 +42,4 @@ Facade is a 2D pixel-art local PvP arena fighter where players compete in fast-p
 {% include gallery id="facade_gallery" %}
 
 ### Resources
-- https://jc1014.itch.io/facade
+<iframe frameborder="0" src="https://itch.io/embed/4250906?bg_color=fdff9a&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=c12a29" width="552" height="167"><a href="https://jc1014.itch.io/facade">Facade by Zenith, Garrick Springer</a></iframe>
