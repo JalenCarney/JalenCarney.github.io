@@ -1,5 +1,5 @@
 ---
-title: "Reality Check (Financial Simulation Game)"
+title: "Reality Check(Financial Simulation Game)"
 excerpt: "A personal finance simulation game where players navigate real-world budget decisions across 30 days — balancing income, expenses, savings, and happiness."
 
 header:
