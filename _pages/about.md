@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/UpsacledBanner.webp
 ---
 
-I am an aspiring game programmer with a strong foundation in Unity development and a 
+I'm a game programmer with a strong foundation in Unity development and a 
 growing skill set that extends into 3D modeling, texturing, UVing, and animating in Blender, video 
 editing with Adobe tools, and sprite creation in Aseprite. I enjoy bringing ideas to life through 
 interactive experiences, and as a lifelong gamer, pursuing game development felt like the most 

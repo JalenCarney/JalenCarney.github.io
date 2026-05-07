@@ -9,4 +9,4 @@ header:
   overlay_image: /assets/images/UpsacledBanner.webp
 ---
 
-The Beginning of my thoughts.
+My thoughts
